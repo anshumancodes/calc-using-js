@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+h1{
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.button{
+    padding: 20px;
+    width: 4vw;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    
+    margin: 0 3px;
+    cursor: pointer;
+   
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+     -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    
+    
+  
+}
+.row{
+    margin: 6px 0;
+}
+.row .input{
+    margin: 0;
+    padding: 25px 32px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+    
+}
+.container{
+    width: 100%;
+
+    /* border: 2px solid black; */
+}
+.calc-con{
+    width: 22vw;
+    border: 2px solid black;
+    border-radius: 11px;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+    
+
+}
+@media screen and (max-width: 600px) {
+    .calc-con{
+        width: 80%;
+    }
+}
+
